@@ -1,0 +1,112 @@
+/*lettertype*/
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 2em;
+    text-align: center;
+    color: #909090;
+    padding-top: 4em;
+    position: sticky;
+    top: 0em;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-size: 1em;
+    text-align: center;
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 0.8em;
+    width: 50em;
+    text-align: center;
+}
+
+
+/*header*/
+
+header {
+    background-color: #bedfde;
+    height: 41em;
+}
+
+
+/*nav*/
+
+nav {
+    background-color: #909090;
+    height: 3em;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.8em;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li:hover {
+    list-style: none;
+    background-color: #bedfde;
+    height: 3em;
+    margin-top: 0em;
+}
+
+nav li a {
+    font-family: "Montserrat";
+    color: white;
+    text-decoration: none;
+}
+
+
+/*About me*/
+
+#aboutMe img {
+    width: 6em;
+    width: 6em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Projects*/
+
+#projects div img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*CV*/
+
+#cv img {
+    width: 38.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Contact*/
+
+form {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+/*main*/
+
+section {}
