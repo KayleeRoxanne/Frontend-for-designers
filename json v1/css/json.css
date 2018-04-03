@@ -1,0 +1,161 @@
+h1 {
+    font-family: Avenir;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    font-family: Avenir;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: -0.01em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-family: Avenir;
+    font-size: 15px;
+    margin-top: -0em;
+}
+
+p {
+    font-family: Avenir;
+    font-size: 10px;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+
+/*header*/
+
+header {
+    height: 27em;
+}
+
+
+/*Menu*/
+
+header nav {
+    font-family: Avenir;
+    font-size: 17px;
+    margin-top: -3.5em;
+    margin-left: 15em;
+    margin-right: 20em;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li:nth-of-type(2) li {
+    z-index: 1;
+    overflow: hidden;
+}
+
+.menu li:nth-of-type(2) li.active {
+    overflow: visible;
+}
+
+
+/*carroussel*/
+
+main div {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    transition: all 1s;
+    margin-top: -360px;
+    overflow: hidden;
+}
+
+main img {
+    width: 2800px;
+    height: 300px;
+}
+
+button.back {
+    background: url(../images/pijlLinks_black.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+}
+
+button.next {
+    margin-left: 1150px;
+    background: url(../images/pijlRechts_black.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+}
+
+.slide {
+    background-color: aqua;
+}
+
+
+/*main*/
+
+main {}
+
+
+/*section + articles */
+
+section {
+    margin-bottom: 1em;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    overflow: hidden;
+}
+
+article {
+    text-align: center;
+    margin-top: 3em;
+    border: solid white 0.01em;
+    height: 20em;
+    overflow: hidden;
+}
+
+article.active {
+    text-align: center;
+    margin-top: 3em;
+    border: solid white 0.01em;
+    height: 40em;
+    overflow: scroll;
+}
+
+article img {
+    height: 15em;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+article button {
+    position: absolute;
+    border-radius: 55%;
+    height: 3em;
+}
