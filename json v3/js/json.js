@@ -3,7 +3,7 @@ var header = document.querySelector('header');
 var main = document.querySelector('main');
 var section = document.querySelector('.carroussel');
 
-var requestURL = 'http://dennistel.nl/movies';
+var requestURL = 'https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json';
 
 var request = new XMLHttpRequest();
 
