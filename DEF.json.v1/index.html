@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">>
+    <title>Movies</title>
+    <link rel="stylesheet" href="css/json.css">
+</head>
+
+<body onkeydown="checkKey">
+    <header>
+        <h1>Lucky movie</h1>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Genres</a>
+                    <ul class="genres">
+                        <li>
+                            <button type="button" data-filter="horror" class="genreButton">Horror</button>
+                        </li>
+                        <li>
+                            <button type="button" data-filter="crime" class="genreButton">Crime</button>
+                        </li>
+                        <li>
+                            <button type="button" data-filter="drama" class="genreButton">Drama</button>
+                        </li>
+                        <li>
+                            <button type="button" data-filter="thriller" class="genreButton">Thriller</button>
+                        </li>
+                        <li>
+                            <button type="button" data-filter="action" class="genreButton">Action</button>
+                        </li>
+                        <li>
+                            <button type="button" data-filter="adventure" class="genreButton">Adventure</button>
+                        </li>
+                        <li>
+                            <button type="button" data-filter="showAll" class="genreButton">Show all</button>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">New release</a>
+                </li>
+                <li><a href="">My list</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="carroussel">
+            <img src="images/16467153655_44aa3ee5c9_z.jpg" alt="carroussel">
+            <img src="images/groupmovie.jpg" alt="carroussel">
+            <img src="images/teken.jpg" alt="carroussel">
+            <img src="images/movie.jpg" alt="carroussel">
+            <img src="images/ziekenhuis.jpg" alt="carroussel">
+        </div>
+        <nav>
+            <button class="back" onkeypress="back"></button>
+            <button class="next" onkeypress="next"></button>
+        </nav>
+        <section class="sct1"></section>
+
+    </main>
+    <script src="js/json.js"></script>
+</body>
+
+</html>
