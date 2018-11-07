@@ -2,6 +2,7 @@
 Frontend for designers is goed voor mijn ontwikkelingen in het schrijven van coden. Ik vindt het erg interessant, alleen gaat het mij niet makkelijk af. Toch geeft het mij een echte voldoening, wanneer de codes en functies werken. Dit vak biedt mij een kans om op een wat minder snel niveau toch beter te leren coderen. 
 
 PROCES
+
 Versie 1: 
 Bij de eerste versie ben ik vooral bezig geweest met de strucuur van de website. Welke functies wil ik er in hebben en welke elementen moeten in het menu. Vanuit de vorige opdracht ben ik bezig geweest met het indelen van het carrousel, zowel in html als in javascript(js). Eerst zal ik ook alle benodigde elementen benoemen en aanmaken in mijn javascript bestand. Voor de sfeer heb ik een aantal sfeerfoto's uitgezocht om die bovenin van de website als slider te laten zien. De afbeeldingen staan in mijn html bestand en de functie maak ik aan in js. Om het carroussel optimaal te laten werken wilde ik de functie toevoegen waarmee je met je pijlen op het toetsenbord kan sliden. Met de functie checkkKey (e) heb ik geprobeerd de toetsen nummers in te voegen. Helaas is dit in deze versie nog niet gelukt. 
 
@@ -13,7 +14,7 @@ Het mooi maken van mijn website lag een stuk lager op mijn prioriteiten lijstje 
 
 Conclusie: Ik vind het heel erg moeilijk om uit mezelf te vinden wat ik moet doen om een functie werkend te laten maken. Maar als zoals nu de api's ingeladen zijn, dan geeft het mij wel een goede kick om door te gaan. 
 
-Link: https://kayleeroxanne.github.io/Frontend-for-designers/json%20v1/index.html
+Link: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v1/index.html
 
 Versie 2: 
 Link:
