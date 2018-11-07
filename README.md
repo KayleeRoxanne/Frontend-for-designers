@@ -14,10 +14,11 @@ Het mooi maken van mijn website lag een stuk lager op mijn prioriteiten lijstje 
 
 Conclusie: Ik vind het heel erg moeilijk om uit mezelf te vinden wat ik moet doen om een functie werkend te laten maken. Maar als zoals nu de api's ingeladen zijn, dan geeft het mij wel een goede kick om door te gaan. 
 
-Link: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v1/index.html
+Link 1: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v1/index.html
 
 Versie 2: 
-Link:
+Tijdens de tweede versie van mijn filmwebsite ben ik vooral bezig geweest met de filter, 'mooi' maken van de website door middel van bijvoorbeeld grid, de functie 'read' more en heel veel uitgezocht en geprobeerd met de filter functie.
+Link 2: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v2/index.html
 
 Versie 3: 
 Link:
