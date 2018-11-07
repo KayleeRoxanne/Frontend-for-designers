@@ -1,0 +1,177 @@
+h1 {
+    font-family: Avenir;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    font-family: Avenir;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: -0.01em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-family: Avenir;
+    font-size: 15px;
+    margin-top: -0em;
+}
+
+p {
+    font-family: Avenir;
+    font-size: 15px;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+
+/*header*/
+
+header {
+    height: 27em;
+}
+
+
+/*Menu*/
+
+header nav {
+    font-family: Avenir;
+    font-size: 17px;
+    margin-top: -3.5em;
+    margin-left: 15em;
+    margin-right: 20em;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li:nth-of-type(2) li {
+    z-index: 1;
+    opacity: 0;
+}
+
+.menu li:nth-of-type(2) li:hover {
+    overflow: visible;
+    opacity: 1;
+}
+
+
+/*carroussel*/
+
+main div {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    transition: all 1s;
+    margin-top: -360px;
+}
+
+.carroussel img {
+    width: 2800px;
+    height: 300px;
+    opacity: 0.6;
+}
+
+button.back {
+    background: url(../images/pijlLinks_white.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 6em;
+    width: 2.5em;
+}
+
+button.next {
+    margin-left: 1225px;
+    background: url(../images/pijlRechts_white.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    height: 6em;
+    width: 4em;
+}
+
+main nav {
+    position: absolute;
+    margin-top: -10em;
+}
+
+.slide {
+    background-color: aqua;
+}
+
+.carrousselOverflow {
+    overflow: hidden;
+}
+
+
+/*main*/
+
+main {}
+
+
+/*section + articles */
+
+.sct1 {
+    margin-bottom: 1em;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    overflow: hidden;
+}
+
+article {
+    text-align: center;
+    margin-top: 3em;
+    border: solid white 0.01em;
+    height: 20em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+article.active {
+    text-align: center;
+    margin-top: 3em;
+    border: solid white 0.01em;
+    height: 40em;
+    overflow: scroll;
+}
+
+article img {
+    height: 15em;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+article button {
+    position: absolute;
+    border-radius: 5%;
+    height: 2em;
+}
