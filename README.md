@@ -18,10 +18,15 @@ Link 1: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v1/index
 
 Versie 2: 
 Tijdens de tweede versie van mijn filmwebsite ben ik vooral bezig geweest met de filter, 'mooi' maken van de website door middel van bijvoorbeeld grid, de functie 'read' more en heel veel uitgezocht en geprobeerd met de filter functie.
+
+Het carroussel van de sfeerfoto's zijn beter uitgelijnt en ik ben bezig geweest om te zorgen dat je met de pijltjes op het toetsenbord dat plaatjes kan verschuiven. Helaas is dit tot nog toe niet gelukt. Wel zijn de klikbare pijlen beter uitgelijnd en goed in zicht.
+
+Ik heb gekozen voor een grid van 4 op een rij. Zo is het overzicht van films direct te zien. Om meer informatie te krijgen per film item kun je klikken op meer waardoor de overige informatie openklapt. 
+
 Link 2: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v2/index.html
 
 Versie 3: 
-Link:
+Link: 
 
 Versie 4:
 Link: 
