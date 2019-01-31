@@ -17,16 +17,23 @@ Conclusie: Ik vind het heel erg moeilijk om uit mezelf te vinden wat ik moet doe
 Link 1: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v1/index.html
 
 Versie 2: 
-Tijdens de tweede versie van mijn filmwebsite ben ik vooral bezig geweest met de filter, 'mooi' maken van de website door middel van bijvoorbeeld grid, de functie 'read' more en heel veel uitgezocht en geprobeerd met de filter functie.
+Tijdens de tweede versie van mijn filmwebsite ben ik vooral bezig geweest met de filter, 'mooi' maken van de website door middel van bijvoorbeeld grid, de functie 'read' more en heel veel uitgezocht en geprobeerd met de filter functie. Ik heb geprobeerd er voor te zorgen dat de filter open klapt met de categoriën, maar helaas is dat tot nog toe nog niet gelukt. 
 
-Het carroussel van de sfeerfoto's zijn beter uitgelijnt en ik ben bezig geweest om te zorgen dat je met de pijltjes op het toetsenbord dat plaatjes kan verschuiven. Helaas is dit tot nog toe niet gelukt. Wel zijn de klikbare pijlen beter uitgelijnd en goed in zicht.
+Het carroussel van de sfeerfoto's zijn beter uitgelijnt en ik ben bezig geweest om te zorgen dat je met de pijltjes op het toetsenbord dat plaatjes kan verschuiven. Helaas is dit tot nog toe niet gelukt. Wel zijn de klikbare pijlen beter uitgelijnd en goed in zicht. De pijlen werken zelfs zo, dat als je bij de laatste item terecht komt, begint hij weer vanaf het begin met if (currentslide > 5) {currentslide = 0;
 
 Ik heb gekozen voor een grid van 4 op een rij. Zo is het overzicht van films direct te zien. Om meer informatie te krijgen per film item kun je klikken op meer waardoor de overige informatie openklapt. 
+
+Conclusie: Het is frustrerend als dingen niet lukken, maar je merkt door het vaker te doen, dat bijvoorbeeld het carroussel nu wel werkt met de pijlen. 
 
 Link 2: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v2/index.html
 
 Versie 3: 
-Link: 
+In deze versie ben ik helemaal omgegaan naar een andere lay-out. In mijn feedback werd aangegeven dat de sfeerplaatjes een beetje too much waren. Daarom heb ik deze uit de website gehaald. Maar omdat het carroussel wel gebruikt moest worden heb ik gekozen om de films in een overzichtelijke carroussel te zetten. Ook de gehele menu balk was onzinnig, waardoor ik deze eruit heb gehaald. Er wordt nu alleen gefocused op de films, waar het om gaat.
+
+In het html bestand heb ik de sfeer images uitgehaald en alleen de sections benoemd met een class. In javascript zorg ik dat het het carroussel van de films verwijst naar die plek in de boom van het html. Nu zijn de sfeerbeelden vervangen door de films. Om aan te geven hoeveel items er in het carroussel aanwezig zijn heb ik veel uitgeprobeerd en gezocht naar bullits die dit kan aangeven. Helaas is het mij tot nu nog niet gelukt. Ik heb nu gekozen voor [1/6], dit geeft aan dat je 1 item van de 6 bekijkt. Per item wordt gebruik gemaakt van een box met een solid, ik heb de marge zo groot mogelijk gemaakt, waardoor de inhoud over bijna het gehele beeld te zien is. Nu zijn er in vergelijking met de vorige versie geen overlappingen meer buiten de boxen. In die boxen heb ik via css elk deel een plaats gegeven. Zoals de 'more' button is nu rechtsonder in de box geplaats. Om het woord 'more' te veranderen naar 'less' wanneer hij actief is heb ik geprobeerd de volgende code te gebruiken: buttonName.textContent = ('Less'); Helaas is het mij nog niet gelukt dat het werkt. De plaatjes van de acteurs zijn nu bij de film toegevoegd, helaas staan de namen nog wel los van de foto's. Ik heb geprobeerd deze twee aan elkaar te koppelen, maar ook dit is helaas nog niet gelukt.
+
+
+Link: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v3/index.html
 
 Versie 4:
 Link: 
