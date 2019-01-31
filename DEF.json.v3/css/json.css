@@ -1,0 +1,255 @@
+    /*Lettertypes & algemene colors*/
+    
+    h1 {
+        font-family: Avenir;
+        font-size: 40px;
+        color: white;
+        margin-left: 1em;
+    }
+    
+    h2 {
+        font-family: Avenir;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        margin-top: -0.01em;
+        margin-bottom: 0.5em;
+    }
+    
+    h3 {
+        font-family: Avenir;
+        font-size: 15px;
+        margin-top: -0em;
+    }
+    
+    p {
+        font-family: Avenir;
+        font-size: 15px;
+        color: white;
+    }
+    
+    body {
+        background-color: #1c1a1a;
+    }
+    /*Header*/
+    
+    header p {
+        margin-left: 41em;
+        color: #c42e44;
+    }
+    /*Navigatie*/
+    
+    header nav {
+        font-family: Avenir;
+        font-size: 17px;
+        margin-top: -3.5em;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5em;
+    }
+    
+    header li {
+        list-style: none;
+    }
+    
+    header li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    main nav {
+        display: block;
+        position: relative;
+        margin-top: -15em;
+    }
+    /*Article*/
+    
+    article {
+        text-align: center;
+        border: solid white 0.01em;
+        height: 25em;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 50em;
+        margin-left: 10em;
+        margin-right: 10em;
+        animation: kleur;
+        animation-duration: 1.5s;
+    }
+    
+    article.active {
+        text-align: center;
+        margin-top: 3em;
+        border: solid white 0.01em;
+        height: 100%;
+        overflow: visible;
+    }
+    
+    @keyframes example {
+        0% {
+            opacity: 0.1;
+        }
+        100% {
+            opacity: 1.0;
+        }
+    }
+    
+    @keyframes kleur {
+        0% {
+            background-color: black;
+        }
+        50% {
+            background-color: lightgrey;
+        }
+        100% {
+            background-color: black;
+        }
+    }
+    
+    article button {
+        position: absolute;
+        border-radius: 5%;
+        height: 2.2em;
+        width: 10em;
+        margin-top: 30em;
+        margin-left: 61em;
+        background-color: #c42e44;
+        color: white;
+        border: none;
+    }
+    
+    @media screen and (min-width: 40em) {
+        .kaderActeurs {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto auto;
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            height: auto;
+            overflow: hidden;
+        }
+    }
+    
+    @media screen and (min-width: 40em) {
+        .kaderActeursFoto {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto auto;
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            height: auto;
+            overflow: hidden;
+        }
+    }
+    
+    .actors {
+        margin-right: 0.5em;
+    }
+    /*
+    .kaderActeurs {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+*/
+    /*
+    .kaderActeursFoto {
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2em;
+    }
+*/
+    
+    .genres {
+        font-family: cursive;
+        margin-top: -1em;
+        margin-bottom: 1em;
+        margin-right: 0.5em;
+    }
+    
+    .kaderGenres {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .releaseDate {
+        background-color: white;
+        color: #c42e44;
+        position: absolute;
+        height: 2em;
+        width: 10em;
+        margin-top: 0;
+    }
+    
+    .simplePlot {
+        width: 20em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pics {
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+    }
+    
+    article p.actors:not(:last-of-type)::after {
+        content: ', ';
+    }
+    
+    article p.genres:not(:last-of-type)::after {
+        content: ', ';
+    }
+    /*Carroussel*/
+    
+    .overflowCarroussel {
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .overflowCarroussel.active {
+        display: flex;
+        overflow: visible;
+    }
+    
+    .carroussel {
+        display: flex;
+        justify-content: space-around;
+        transition: all 1s;
+        margin-left: 6em;
+    }
+    
+    .fotoFilm {
+        width: 10em;
+        height: 15em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.5em;
+    }
+    
+    button.back {
+        background: url(../images/pijlLinks_white.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 6em;
+        width: 2.5em;
+        border: none;
+    }
+    
+    button.next {
+        margin-left: 110em;
+        background: url(../images/pijlRechts_white.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        height: 6em;
+        width: 4em;
+        border: none;
+    }
+    /*Read more*/
