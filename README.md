@@ -45,4 +45,4 @@ Ik heb geprobeerd de pijlen van het carroussel vast te zetten op de juiste plek 
 
 Conclusie: Voor als je weet hoe je begonnen bent en hoe het eindresultaat eruit ziet en werkt, ben ik wel trots op mijn werk. Ik vind het coderen heel erg lastig, maar ik ben erg blij dat ik er nu weer mee bezig ben geweest. Zo leer ik stap voor stap op mijn tempo steeds meer! Ik ben nog al een perfectionist, daarom vind ik het lastig om ineens te stoppen met mijn werk, omdat ik mijn best gedaan heb. Maar nogmaals ik ben blij dat ik zover ben gekomen met dit vak.
 
-Link: 
+Link: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v4/index.html
