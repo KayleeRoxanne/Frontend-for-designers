@@ -17,7 +17,7 @@ Conclusie: Ik vind het heel erg moeilijk om uit mezelf te vinden wat ik moet doe
 Link 1: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v1/index.html
 
 Versie 2: 
-Tijdens de tweede versie van mijn filmwebsite ben ik vooral bezig geweest met de filter, 'mooi' maken van de website door middel van bijvoorbeeld grid, de functie 'read' more en heel veel uitgezocht en geprobeerd met de filter functie. Ik heb geprobeerd er voor te zorgen dat de filter open klapt met de categoriën, maar helaas is dat tot nog toe nog niet gelukt. 
+Tijdens de tweede versie van mijn filmwebsite ben ik vooral bezig geweest met de filter, 'mooi' maken van de website door middel van bijvoorbeeld grid, de functie 'read' more en heel veel uitgezocht en geprobeerd met de filter functie. Ik heb geprobeerd er voor te zorgen dat de filter open klapt met de categoriën, maar helaas is dat tot nog toe nog niet gelukt. Als je onder de filter scrolt met je muis, zie je de hover van de categorie-items wel, maar het 'uitklapmenu' werkt nog niet zoals ik wil. 
 
 Het carroussel van de sfeerfoto's zijn beter uitgelijnt en ik ben bezig geweest om te zorgen dat je met de pijltjes op het toetsenbord dat plaatjes kan verschuiven. Helaas is dit tot nog toe niet gelukt. Wel zijn de klikbare pijlen beter uitgelijnd en goed in zicht. De pijlen werken zelfs zo, dat als je bij de laatste item terecht komt, begint hij weer vanaf het begin met if (currentslide > 5) {currentslide = 0;
 
@@ -37,5 +37,12 @@ Conclusie: Ik vind de website een hele mooie verbetering hebben, er zijn alleen 
 Link: https://kayleeroxanne.github.io/Frontend-for-designers/DEF.json.v3/index.html
 
 Versie 4:
-Conclusie: 
+Omdat ik in de vorige versies vooral veel inhoud en functies heb omgegooid, ga ik met deze versie de laatste puntjes op de 'i' zetten.
+
+In het CSS bestand heb ik veel design dingen aangepast, maar vooral ook veel uitgeprobeerd. De 'more' en 'less' button met de functies 'hidden' en 'active', na veel proberen is het nog steeds niet gelukt. Wel ben ik erachter gekomen, dat vanuit de JS het woordje 'Less' terug komt in het laatste film item in het carroussel. 
+
+Ik heb geprobeerd de pijlen van het carroussel vast te zetten op de juiste plek in CSS met /*display: block;*/, /*position: sticky;*/, helaas krijg ik ook dit nog niet voor elkaar. Wanneer de meer informatie openklapt glijden de pijlen mee naar beneden. De foto's en de namen van de acteurs staan nu gepositioneerd bij elkaar. Helaas heb ik bij een grote hoeveelheid acteurs dat een aantal buiten de informatie box terecht komen. Hier heb ik geprobeerd om met overflow: hidden; en flex-wrap: wrap; deze acteurs naar binnen te brengen. Helaas komen hierdoor de namen niet precies onder de foto's terecht indien er meerdere regels aan acteurs te zien zijn. 
+
+Conclusie: Voor als je weet hoe je begonnen bent en hoe het eindresultaat eruit ziet en werkt, ben ik wel trots op mijn werk. Ik vind het coderen heel erg lastig, maar ik ben erg blij dat ik er nu weer mee bezig ben geweest. Zo leer ik stap voor stap op mijn tempo steeds meer! Ik ben nog al een perfectionist, daarom vind ik het lastig om ineens te stoppen met mijn werk, omdat ik mijn best gedaan heb. Maar nogmaals ik ben blij dat ik zover ben gekomen met dit vak.
+
 Link: 
